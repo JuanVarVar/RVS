@@ -1,0 +1,87 @@
+
+.recipe__card .base_card{
+    background-color: white;
+    border: 0.5px solid;
+    border-color: rgb(112, 133, 165);
+    max-width:242px;
+}
+
+.recipe__card > div{
+    position: static;
+    transition: all 0.3s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.recipe__card:hover > div{
+    position: relative;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.recipe__card:hover .title_card{
+    color: rgb(50, 74, 94);
+}
+
+.recipe__card .icon_card{
+    position: relative;
+    padding: 2px;
+    margin: 0px;
+    width: 36px;
+    height:36px;
+    z-index: 100;
+    margin-top: 162px;
+    margin-left: 2px;
+
+    align-self: flex-start;
+}
+
+.recipe__card .footer_card{
+    max-height: 106px;
+    height: 106px;
+    max-width:240px;
+
+}
+
+.recipe__card .footer_card img{
+    height: 20px;
+    width: 20px;
+}
+
+.recipe__card .max_area{
+    max-height: 45px;
+    height: 45px;
+}
+
+.recipe__card .title_card{
+    color: rgb(49, 49, 49);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Verdana";
+    Word-wrap: break-Word;
+}
+
+.recipe__card .state_card{
+    color:gray;
+    margin: 0px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Garamond";
+}
+
+
+.recipe__card .icon_card img{
+    width:32px;
+    height:32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.recipe__card .img_card{
+    object-fit: cover;
+    margin: 0px,0px,0px,0px;
+    padding: 0px,0px,0px,0px;
+    width:240px;
+    height: 240px;
+    max-width:240px;
+    max-height:240px;
+}
