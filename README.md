@@ -13,6 +13,6 @@ Requisitos
 
 Instalación
 -----------
-1. Luego de clonar el repositorio descarge las dependencias utilizando el comando:  <span style="color:orange;">npm install</span>
+1. Luego de clonar el repositorio descarge las dependencias utilizando el comando:  npm install
 
-2. Compile el proyecto con: <span style="color:orange;">npm start</span>
+2. Compile el proyecto con: npm start
