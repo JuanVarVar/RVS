@@ -7,8 +7,16 @@ Las consultas de información se realizan por tres metodos diferentes:
 -Base de Datos Mysql: (Archivo de configuración para elejir la BD y Inicialización automatica de la BD)  
 -Información Integrada: (Muestra un conjunto de recetas predefinidas dentro del sistema)  
 
+Requisitos
+-----------
+-Node 13.14.0
+
 Instalación
 -----------
-Luego de clonar el repositorio descarge las dependencias utilizando el comando:  
+1. Luego de clonar el repositorio descarge las dependencias utilizando el comando:  
 
 npm install
+
+2. Compile el proyecto con: 
+
+npm start
